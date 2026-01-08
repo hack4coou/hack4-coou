@@ -114,17 +114,17 @@ export const teamMembers: TeamMember[] = [
     profilePic: "/images/faith-amara-lncle8n.webp",
     category: "operations",
     social: {
-      website: "#",
-      email: "faith@gdgcoou.com",
+      website: "devfoma.vercel.app",
+      email: "faithamarachi860@gmail.com",
     },
   },
   {
     id: "9",
     name: "Wisdom Ejiofor",
-    role: "AI/ML Specialist",
+    role: "Creative Lead",
     roleColor: "#8b5cf6",
-    description: "Artificial intelligence and machine learning specialist guiding technical workshops and mentorship.",
-    category: "technical",
+    description: "Crafting brand visuals and marketing materials to promote hackathon events effectively.",
+    category: "creative",
     social: {
       website: "#",
       github: "#",

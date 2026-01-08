@@ -7,7 +7,7 @@ export function TrainingSection() {
       <div className="absolute bottom-0 left-0 w-100 h-100 bg-blue-500/5 rounded-full blur-[100px] pointer-events-none -translate-x-1/3 translate-y-1/3"></div>
       <div className="max-w-275 mx-auto relative z-10 flex flex-col gap-12">
         <div className="flex flex-col items-center text-center gap-4">
-          <span className="text-[#13ec80] text-sm font-bold tracking-widest uppercase">Level Up Skills</span>
+          <span className="text-[#13ec80] text-sm font-bold tracking-widest uppercase">Level Up Your Skills</span>
           <h2 className="text-white text-3xl md:text-5xl font-black tracking-tight uppercase">
             Pre-Hackathon Training
           </h2>

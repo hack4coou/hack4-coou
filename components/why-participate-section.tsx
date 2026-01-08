@@ -65,12 +65,12 @@ export function WhyParticipateSection() {
                 </div>
               </div>
             </div>
-            <div className="pt-4">
+            {/* <div className="pt-4">
               <button className="inline-flex items-center justify-center gap-2 text-[#13ec80] font-bold hover:text-white transition-colors group">
                 See Success Stories
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="relative w-full lg:w-1/2">
             <div className="relative rounded-2xl overflow-hidden border border-[#283930] shadow-2xl group transform transition-transform duration-500 hover:rotate-1">

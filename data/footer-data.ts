@@ -25,7 +25,7 @@ export const footerData: FooterData = {
       id: "2",
       name: "GitHub",
       icon: "github",
-      url: "/tracks-details",
+      url: "https://github.com/hack4coou",
     },
   ],
 }

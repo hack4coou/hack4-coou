@@ -6,11 +6,11 @@ const personIcons = ["person", "person_4", "face_3", "person_2"]
 export function MentorsSection() {
   return (
     <section className="py-20 px-4 md:px-10 bg-[#0B0C10] relative overflow-hidden" id="mentors">
-      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#13ec80]/20 to-transparent"></div>
+      <div className="absolute top-0 left-0 w-full h-px bg-linear-to-r from-transparent via-[#13ec80]/20 to-transparent"></div>
       <div className="absolute -right-20 top-40 w-64 h-64 bg-[#13ec80]/5 rounded-full blur-[80px] pointer-events-none"></div>
       <div className="absolute -left-20 bottom-20 w-64 h-64 bg-blue-500/5 rounded-full blur-[80px] pointer-events-none"></div>
 
-      <div className="max-w-[1000px] mx-auto flex flex-col gap-12 relative z-10">
+      <div className="max-w-250 mx-auto flex flex-col gap-12 relative z-10">
         <div className="text-center flex flex-col items-center gap-4">
           <span className="text-[#13ec80] text-sm font-bold tracking-widest uppercase">Expert Guidance</span>
           <h2 className="text-white text-3xl md:text-4xl font-bold tracking-tight">MENTORS & JUDGES</h2>

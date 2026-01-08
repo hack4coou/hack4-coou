@@ -15,7 +15,7 @@ export const mentors: Mentor[] = [
     title: "coming soon",
     company: "coming soon",
     category: "judge",
-    expertise: ["coming soon", "coming soon"],
+    expertise: ["coming very soon", "coming sooon"],
   },
   {
     id: "2",
@@ -23,6 +23,22 @@ export const mentors: Mentor[] = [
     title: "coming soon",
     company: "coming soon",
     category: "mentor",
-    expertise: ["coming soon", "coming soon"],
+    expertise: ["coming very soon", "coming sooon"],
+  },
+  {
+    id: "3",
+    name: "coming soon",
+    title: "coming soon",
+    company: "coming soon",
+    category: "mentor",
+    expertise: ["coming very soon", "coming sooon"],
+  },
+  {
+    id: "4",
+    name: "coming soon",
+    title: "coming soon",
+    company: "coming soon",
+    category: "judge",
+    expertise: ["coming very soon", "coming sooon"],
   },
 ]
