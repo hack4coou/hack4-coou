@@ -1,4 +1,5 @@
 "use client"
+import { useState } from "react"
 import { AboutSection } from "@/components/about-section"
 import { WhyParticipateSection } from "@/components/why-participate-section"
 import { WhoCanParticipateSection } from "@/components/who-can-participate-section"
@@ -13,6 +14,8 @@ import { FAQSection } from "@/components/faq-section"
 import { FooterSection } from "@/components/footer-section"
 
 export default function HackathonLanding() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
   // const [isModalOpen, setIsModalOpen] = useState(false)
   // const openModal = () => setIsModalOpen(true)
   // const closeModal = () => setIsModalOpen(false)
@@ -22,6 +25,10 @@ export default function HackathonLanding() {
     if (scheduleSection) {
       scheduleSection.scrollIntoView({ behavior: "smooth" })
     }
+  }
+
+  const handleMobileMenuClick = () => {
+    setIsMobileMenuOpen(false)
   }
 
   return (
@@ -75,13 +82,61 @@ export default function HackathonLanding() {
 
             {/* Mobile Menu Button */}
             <div className="md:hidden flex items-center">
-              <button className="text-white hover:text-[#13ec80]">
+              <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className="text-white hover:text-[#13ec80] transition-colors"
+                aria-label="Toggle menu"
+              >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
               </button>
             </div>
           </div>
+
+          {isMobileMenuOpen && (
+            <div className="md:hidden pb-4 border-t border-[#283930]">
+              <a
+                href="#about"
+                onClick={handleMobileMenuClick}
+                className="block px-4 py-2 text-gray-300 hover:text-[#13ec80] hover:bg-[#283930]/30 transition-colors text-sm font-medium"
+              >
+                About
+              </a>
+              <a
+                href="#tracks"
+                onClick={handleMobileMenuClick}
+                className="block px-4 py-2 text-gray-300 hover:text-[#13ec80] hover:bg-[#283930]/30 transition-colors text-sm font-medium"
+              >
+                Tracks
+              </a>
+              <a
+                href="#prizes"
+                onClick={handleMobileMenuClick}
+                className="block px-4 py-2 text-gray-300 hover:text-[#13ec80] hover:bg-[#283930]/30 transition-colors text-sm font-medium"
+              >
+                Prizes
+              </a>
+              <a
+                href="#faq"
+                onClick={handleMobileMenuClick}
+                className="block px-4 py-2 text-gray-300 hover:text-[#13ec80] hover:bg-[#283930]/30 transition-colors text-sm font-medium"
+              >
+                FAQ
+              </a>
+              <div className="px-4 py-2">
+                <a
+                  href="https://gdg.community.dev/events/details/google-gdg-on-campus-chukwuemeka-odumegwu-ojukwu-university-anambra-nigeria-presents-hack4coou-innovate-amp-build/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleMobileMenuClick}
+                  className="w-full bg-[#13ec80] hover:bg-[#13ec80]/90 text-[#0B0C10] font-bold shadow-[0_0_20px_-5px_rgba(19,236,128,0.4)] hover:shadow-[0_0_30px_-5px_rgba(19,236,128,0.6)] transition-all rounded-full px-6 py-2 inline-flex items-center justify-center"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+          )}
         </div>
       </nav>
 
