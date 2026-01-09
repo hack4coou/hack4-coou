@@ -14,7 +14,7 @@ export const heroData: HeroData = {
   ctaText: "Register Now",
   secondaryCtaText: "View Schedule",
   eventDate: "2026-05-27T09:00:00",
-  registrationStatus: "Registration Open",
+  registrationStatus: "Registration Is Open",
   registrationLink:
     "https://gdg.community.dev/events/details/google-gdg-on-campus-chukwuemeka-odumegwu-ojukwu-university-anambra-nigeria-presents-hack4coou-innovate-amp-build/",
 }

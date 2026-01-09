@@ -1,17 +1,17 @@
 "use client"
 import { useState } from "react"
-import { AboutSection } from "@/components/about-section"
-import { WhyParticipateSection } from "@/components/why-participate-section"
-import { WhoCanParticipateSection } from "@/components/who-can-participate-section"
-import { PrizesSection } from "@/components/prizes-section"
-import { SponsorsSection } from "@/components/sponsors-section"
-import { TrainingSection } from "@/components/training-section"
-import { MentorsSection } from "@/components/mentors-section"
-import { TeamSection } from "@/components/team-section"
-import { HeroSection } from "@/components/hero-section"
-import { TimelineSection } from "@/components/timeline-section"
-import { FAQSection } from "@/components/faq-section"
-import { FooterSection } from "@/components/footer-section"
+import { AboutSection } from "@/components/sections/about-section"
+import { WhyParticipateSection } from "@/components/sections/why-participate-section"
+import { WhoCanParticipateSection } from "@/components/sections/who-can-participate-section"
+import { PrizesSection } from "@/components/sections/prizes-section"
+import { SponsorsSection } from "@/components/sections/sponsors-section"
+import { TrainingSection } from "@/components/sections/training-section"
+import { MentorsSection } from "@/components/sections/mentors-section"
+import { TeamSection } from "@/components/sections/team-section"
+import { HeroSection } from "@/components/sections/hero-section"
+import { TimelineSection } from "@/components/sections/timeline-section"
+import { FAQSection } from "@/components/sections/faq-section"
+import { FooterSection } from "@/components/sections/footer-section"
 
 export default function HackathonLanding() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -57,9 +57,9 @@ export default function HackathonLanding() {
               <a className="text-gray-300 hover:text-[#13ec80] transition-colors text-sm font-medium" href="#about">
                 About
               </a>
-              <a className="text-gray-300 hover:text-[#13ec80] transition-colors text-sm font-medium" href="#tracks">
+              {/* <a className="text-gray-300 hover:text-[#13ec80] transition-colors text-sm font-medium" href="#tracks">
                 Tracks
-              </a>
+              </a> */}
               <a className="text-gray-300 hover:text-[#13ec80] transition-colors text-sm font-medium" href="#prizes">
                 Prizes
               </a>
@@ -103,13 +103,13 @@ export default function HackathonLanding() {
               >
                 About
               </a>
-              <a
+              {/* <a
                 href="#tracks"
                 onClick={handleMobileMenuClick}
                 className="block px-4 py-2 text-gray-300 hover:text-[#13ec80] hover:bg-[#283930]/30 transition-colors text-sm font-medium"
               >
                 Tracks
-              </a>
+              </a> */}
               <a
                 href="#prizes"
                 onClick={handleMobileMenuClick}

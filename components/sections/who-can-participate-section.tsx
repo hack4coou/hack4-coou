@@ -2,7 +2,7 @@ export function WhoCanParticipateSection() {
   return (
     <section className="py-24 px-4 md:px-10 bg-[#0B0C10] relative overflow-hidden">
       <div className="absolute -left-20 top-20 w-72 h-72 bg-[#13ec80]/5 rounded-full blur-3xl pointer-events-none"></div>
-      <div className="max-w-[960px] mx-auto grid md:grid-cols-12 gap-12 items-center relative z-10">
+      <div className="max-w-240 mx-auto grid md:grid-cols-12 gap-12 items-center relative z-10">
         <div className="md:col-span-5 flex flex-col gap-6">
           <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight leading-[1.1]">
             WHO CAN <br />

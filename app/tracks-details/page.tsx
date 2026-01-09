@@ -1,6 +1,6 @@
 "use client"
 
-import { Navbar } from "@/components/navbar"
+import { Navbar } from "@/components/sections/navbar"
 
 export default function TracksDetailsPage() {
   const tracks = [
@@ -140,7 +140,7 @@ export default function TracksDetailsPage() {
 
       {/* Footer */}
       <footer className="bg-[#0B0C10] border-t border-[#283930] py-8">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-10 text-center text-gray-400 text-sm">
+        <div className="max-w-300 mx-auto px-4 md:px-10 text-center text-gray-400 text-sm">
           <p>&copy; 2026 Hack4COOU. All rights reserved.</p>
         </div>
       </footer>

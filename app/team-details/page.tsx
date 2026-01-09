@@ -1,6 +1,6 @@
 "use client"
 
-import { Navbar } from "@/components/navbar"
+import { Navbar } from "@/components/sections/navbar"
 import { teamMembers } from "@/data/team-data"
 
 export default function TeamDetailsPage() {
@@ -41,7 +41,7 @@ export default function TeamDetailsPage() {
         {member.profilePic ? (
           <img src={member.profilePic || "/placeholder.svg"} alt={member.name} className="w-full h-full object-cover" />
         ) : (
-          <div className="w-full h-full bg-gradient-to-br from-[#283930] to-[#15181E] flex items-center justify-center">
+          <div className="w-full h-full bg-linear-to-br from-[#283930] to-[#15181E] flex items-center justify-center">
             <span className="text-4xl text-gray-600">{member.name.charAt(0)}</span>
           </div>
         )}
@@ -70,14 +70,14 @@ export default function TeamDetailsPage() {
 
       {/* Hero Section */}
       <div className="relative w-full border-b border-[#283930] py-16 md:py-24">
-        <div className="max-w-[960px] mx-auto px-4 relative z-10 flex flex-col items-center text-center">
+        <div className="max-w-240 mx-auto px-4 relative z-10 flex flex-col items-center text-center">
           <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1a2420] text-[#13ec80] text-xs font-bold uppercase tracking-wider mb-6 border border-[#13ec80]/20">
             <span className="material-symbols-outlined text-sm">groups</span>
             Meet the Organizers
           </span>
           <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight mb-4">
             The Architects of <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#13ec80] to-white">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-white via-[#13ec80] to-white">
               Hack4COOU
             </span>
           </h1>
@@ -90,7 +90,7 @@ export default function TeamDetailsPage() {
 
       {/* Core Leadership Section */}
       <div className="flex-1 w-full bg-[#0B0C10] py-12">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-10">
+        <div className="max-w-300 mx-auto px-4 md:px-10">
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-white mb-8 flex items-center gap-3">
               <span className="w-2 h-8 bg-[#13ec80] rounded-sm"></span>
@@ -147,7 +147,7 @@ export default function TeamDetailsPage() {
 
       {/* Footer */}
       <footer className="bg-[#0B0C10] border-t border-[#283930] py-8">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-10 text-center text-gray-400 text-sm">
+        <div className="max-w-300 mx-auto px-4 md:px-10 text-center text-gray-400 text-sm">
           <p>&copy; 2026 Hack4COOU. All rights reserved.</p>
         </div>
       </footer>

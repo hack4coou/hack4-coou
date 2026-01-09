@@ -1,6 +1,6 @@
 "use client"
 
-import { Navbar } from "@/components/navbar"
+import { Navbar } from "@/components/sections/navbar"
 
 export default function TrainingDetailsPage() {
   const courses = [
@@ -100,7 +100,7 @@ export default function TrainingDetailsPage() {
                         key={idx}
                         className="flex gap-3 items-start p-3 rounded-lg hover:bg-white/5 transition-colors cursor-default"
                       >
-                        <div className="mt-0.5 min-w-[20px]">
+                        <div className="mt-0.5 min-w-5">
                           <span className="material-symbols-outlined text-[#13ec80] text-[20px]">check</span>
                         </div>
                         <p className="text-gray-200 text-sm md:text-base">{item}</p>
@@ -161,7 +161,7 @@ export default function TrainingDetailsPage() {
 
       {/* Footer */}
       <footer className="bg-[#0B0C10] border-t border-[#283930] py-8">
-        <div className="max-w-[1200px] mx-auto px-4 md:px-10 text-center text-gray-400 text-sm">
+        <div className="max-w-300 mx-auto px-4 md:px-10 text-center text-gray-400 text-sm">
           <p>&copy; 2026 Hack4COOU. All rights reserved.</p>
         </div>
       </footer>

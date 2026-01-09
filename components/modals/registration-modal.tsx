@@ -111,7 +111,7 @@ export default function RegistrationModal({ isOpen, onClose }: RegistrationModal
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-[600px] bg-[#15181E] border border-[#283930] rounded-xl p-8 max-h-[90vh] overflow-y-auto"
+        className="relative w-full max-w-150 bg-[#15181E] border border-[#283930] rounded-xl p-8 max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}

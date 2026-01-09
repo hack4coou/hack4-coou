@@ -18,7 +18,7 @@ const secondaryIconMap = {
 export function TeamSection() {
   return (
     <section className="py-20 px-4 md:px-10 bg-[#0B0C10] relative" id="team">
-      <div className="max-w-[1000px] mx-auto">
+      <div className="max-w-250 mx-auto">
         <div className="flex flex-col md:flex-row items-end justify-between gap-6 mb-12">
           <div className="flex flex-col gap-3">
             <span className="text-[#13ec80] text-sm font-bold tracking-widest uppercase">Student Leadership</span>
@@ -48,8 +48,8 @@ export function TeamSection() {
                 key={member.id}
                 className="group flex flex-col gap-4 p-5 rounded-xl border border-[#283930] bg-[#15181E]/50 hover:bg-[#15181E] hover:border-[#13ec80]/30 transition-all duration-300"
               >
-                <div className="relative w-full aspect-[4/3] rounded-lg bg-[#0B0C10] overflow-hidden flex items-end justify-center border border-[#283930] group-hover:border-[#13ec80]/20 transition-colors">
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#15181E] to-transparent opacity-60"></div>
+                <div className="relative w-full aspect-4/3 rounded-lg bg-[#0B0C10] overflow-hidden flex items-end justify-center border border-[#283930] group-hover:border-[#13ec80]/20 transition-colors">
+                  <div className="absolute inset-0 bg-linear-to-t from-[#15181E] to-transparent opacity-60"></div>
                   {member.profilePic ? (
                     <img
                       src={member.profilePic || "/placeholder.svg"}
@@ -101,7 +101,7 @@ export function TeamSection() {
             )
           })}
         </div>
-        <div className="mt-12 p-8 rounded-2xl bg-gradient-to-r from-[#15181E] to-[#0B0C10] border border-[#283930] flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="mt-12 p-8 rounded-2xl bg-linear-to-r from-[#15181E] to-[#0B0C10] border border-[#283930] flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col gap-2 text-center md:text-left">
             <h3 className="text-white text-xl font-bold">Want to join the organizing team?</h3>
             <p className="text-gray-400 text-sm">
