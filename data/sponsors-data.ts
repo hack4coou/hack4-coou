@@ -12,7 +12,7 @@ export const sponsors: Sponsor[] = [
   },
   {
     id: "2",
-    name: "WOMEN IN DEFI ANAMBRA CHAPTER",
+    name: "WOMEN IN DEFI",
     logo: "/images/women-in-defi.jpg",
   },
   {
