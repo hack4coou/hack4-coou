@@ -8,12 +8,14 @@ export interface SocialLink {
 export interface FooterData {
   logoText: string
   copyright: string
+  devfoma: string
   socialLinks: SocialLink[]
 }
 
 export const footerData: FooterData = {
   logoText: "Hack4COOU",
-  copyright: "2025 Hack4COOU. All rights reserved. Built with 💚 by the COOU Tech Community.",
+  copyright: "2025 Hack4COOU. All rights reserved. Built with 💚 by ",
+  devfoma: "https://devfoma.vercel.app",
   socialLinks: [
     {
       id: "1",

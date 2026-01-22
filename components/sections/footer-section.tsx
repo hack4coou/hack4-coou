@@ -47,7 +47,7 @@ export function FooterSection() {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-[#283930] text-center text-gray-400 text-sm">
-          <p>&copy; {footerData.copyright}</p>
+          <p>&copy; {footerData.copyright} <span><Link href={footerData.devfoma} target="_blank" className="hover:text-[#13ec80]">devfoma</Link></span></p>
         </div>
       </div>
     </footer>
