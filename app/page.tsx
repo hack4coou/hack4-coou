@@ -57,9 +57,9 @@ export default function HackathonLanding() {
               <a className="text-gray-300 hover:text-[#13ec80] transition-colors text-sm font-medium" href="#about">
                 About
               </a>
-              {/* <a className="text-gray-300 hover:text-[#13ec80] transition-colors text-sm font-medium" href="#tracks">
-                Tracks
-              </a> */}
+              <a className="text-gray-300 hover:text-[#13ec80] transition-colors text-sm font-medium" href="#training">
+                Training
+              </a>
               <a className="text-gray-300 hover:text-[#13ec80] transition-colors text-sm font-medium" href="#prizes">
                 Prizes
               </a>
@@ -103,13 +103,13 @@ export default function HackathonLanding() {
               >
                 About
               </a>
-              {/* <a
-                href="#tracks"
+              <a
+                href="#training"
                 onClick={handleMobileMenuClick}
                 className="block px-4 py-2 text-gray-300 hover:text-[#13ec80] hover:bg-[#283930]/30 transition-colors text-sm font-medium"
               >
-                Tracks
-              </a> */}
+                Training
+              </a>
               <a
                 href="#prizes"
                 onClick={handleMobileMenuClick}
