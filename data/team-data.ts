@@ -30,19 +30,6 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    id: "2",
-    name: "Paul Nwokolo",
-    role: "Co-Organizer",
-    roleColor: "#60a5fa",
-    description: "Co-organizer working with Blessing to ensure successful events and community engagement.",
-    profilePic: "/images/paul-nwokolo.webp",
-    category: "leadership",
-    social: {
-      website: "#",
-      linkedin: "#",
-    },
-  },
-  {
     id: "3",
     name: "Dennis Ajulu",
     role: "Web Development Lead",
@@ -53,19 +40,6 @@ export const teamMembers: TeamMember[] = [
     social: {
       website: "#",
       github: "#",
-    },
-  },
-  {
-    id: "4",
-    name: "Kelvin Akpamgbo",
-    role: "Web3/Blockchain Lead",
-    roleColor: "#a78bfa",
-    description: "Web3 and blockchain specialist leading initiatives in decentralized technology.",
-    profilePic: "/images/kcc-akpamgbo-rtc28sc.webp",
-    category: "technical",
-    social: {
-      website: "#",
-      linkedin: "#",
     },
   },
   {
