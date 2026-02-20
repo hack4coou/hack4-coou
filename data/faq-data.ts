@@ -21,6 +21,6 @@ export const faqs: FAQ[] = [
     id: "3",
     question: "Can I apply as a team?",
     answer:
-      "Yes! You can form teams of 2-4 members. If you don't have a team yet, don't worry. We'll have a team-building session at the start of the event.",
+      "Yes! You can form teams of 2-4 members. If you don't have a team yet, don't worry. We'll have a team-building session at the start of the event, so come prepared!.",
   },
 ]
